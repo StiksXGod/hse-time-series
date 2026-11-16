@@ -1,0 +1,22 @@
+{
+  "python": "3.13.3",
+  "platform": "macOS-15.2-arm64-arm-64bit-Mach-O",
+  "transport": "inprocess",
+  "fresh_kernel": true,
+  "code_cells": 17,
+  "inline_png_figures": 12,
+  "errors": 0,
+  "elapsed_seconds": 24.4,
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.2.3",
+    "scipy": "1.15.3",
+    "statsmodels": "0.14.6",
+    "matplotlib": "3.10.7",
+    "openpyxl": "3.1.5",
+    "nbclient": "0.10.2",
+    "nbformat": "5.10.4"
+  },
+  "data_source": "provided_original_xlsx",
+  "network_download_verified": false
+}

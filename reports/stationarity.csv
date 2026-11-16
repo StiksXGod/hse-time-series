@@ -1,0 +1,17 @@
+series,regression,alpha,n_input,test,statistic,p_value,p_relation,p_display,lags,n_effective,critical_5pct,reject_H0,lag_method,warning
+raw,c,0.05,372,ADF,-4.972893151215583,2.5104281021467207e-05,=,2.51043e-05,6,365,-2.8694912343676497,True,"AIC, maxlag=21",
+raw,c,0.05,372,KPSS,0.9026312034059036,0.01,≤,≤ 0.01,3,372,0.463,True,auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+"
+log1p,c,0.05,372,ADF,-2.664072676746343,0.08046425137184449,=,0.0804643,20,351,-2.8698097654570507,False,"AIC, maxlag=21",
+log1p,c,0.05,372,KPSS,1.3363412515138855,0.01,≤,≤ 0.01,1,372,0.463,True,auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+"
+diff1_log1p,c,0.05,371,ADF,-7.593600070034757,2.493889449710722e-11,=,2.49389e-11,19,351,-2.8698097654570507,True,"AIC, maxlag=21",
+diff1_log1p,c,0.05,371,KPSS,0.09552483147501183,0.1,≥,≥ 0.1,73,371,0.463,False,auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+diff7_log1p,c,0.05,365,ADF,-7.169084886457187,2.835379608021547e-10,=,2.83538e-10,20,344,-2.8699787979596136,True,"AIC, maxlag=21",
+diff7_log1p,c,0.05,365,KPSS,0.021459672784736136,0.1,≥,≥ 0.1,6,365,0.463,False,auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"

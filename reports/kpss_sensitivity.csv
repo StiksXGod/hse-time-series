@@ -1,0 +1,31 @@
+series,regression,alpha,n_input,test,statistic,p_value,p_relation,p_display,lags,n_effective,critical_5pct,reject_H0,lag_method,warning,bandwidth
+raw,c,0.05,372,KPSS,0.7896675376427356,0.01,≤,≤ 0.01,7,372,0.463,True,7,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",7
+log1p,c,0.05,372,KPSS,1.200462346007056,0.01,≤,≤ 0.01,7,372,0.463,True,7,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",7
+diff1_log1p,c,0.05,371,KPSS,0.012606377467332609,0.1,≥,≥ 0.1,7,371,0.463,False,7,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",7
+diff7_log1p,c,0.05,365,KPSS,0.02231994002318084,0.1,≥,≥ 0.1,7,365,0.463,False,7,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",7
+raw,c,0.05,372,KPSS,0.6177992399983692,0.021018250909239165,=,= 0.0210183,14,372,0.463,True,14,,14
+log1p,c,0.05,372,KPSS,0.8689373017068844,0.01,≤,≤ 0.01,14,372,0.463,True,14,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+",14
+diff1_log1p,c,0.05,371,KPSS,0.022648692980663628,0.1,≥,≥ 0.1,14,371,0.463,False,14,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",14
+diff7_log1p,c,0.05,365,KPSS,0.029248590128847344,0.1,≥,≥ 0.1,14,365,0.463,False,14,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",14
+raw,c,0.05,372,KPSS,0.5130136971629482,0.03873565379212878,=,= 0.0387357,21,372,0.463,True,21,,21
+log1p,c,0.05,372,KPSS,0.7306192779267603,0.010761883824839972,=,= 0.0107619,21,372,0.463,True,21,,21
+diff1_log1p,c,0.05,371,KPSS,0.03440004424530706,0.1,≥,≥ 0.1,21,371,0.463,False,21,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",21
+diff7_log1p,c,0.05,365,KPSS,0.039560048201807065,0.1,≥,≥ 0.1,21,365,0.463,False,21,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+",21

@@ -1,0 +1,7 @@
+series,regression,alpha,n_input,test,statistic,p_value,p_relation,p_display,lags,n_effective,critical_5pct,reject_H0,lag_method,warning
+raw,ct,0.05,372,ADF,-5.208574797721923,8.437625178862252e-05,=,8.43763e-05,6,365,-3.422587251359195,True,"AIC, maxlag=21",
+raw,ct,0.05,372,KPSS,0.3381016096587192,0.01,≤,≤ 0.01,1,372,0.146,True,auto,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+"
+weekly_raw,c,0.05,52,ADF,-2.9757946610107413,0.03721754226419626,=,0.0372175,1,50,-2.92135992,True,"AIC, maxlag=8",
+weekly_raw,c,0.05,52,KPSS,0.5161992458948751,0.03801818786151462,=,= 0.0380182,3,52,0.463,True,auto,
