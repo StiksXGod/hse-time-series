@@ -1,0 +1,34 @@
+frequency,model,params,validation_WAPE_pct,selected
+День,Наивная,{},,True
+День,Сглаживание,{},67.18068892659159,True
+День,Сглаживание,"{""window"": 84}",69.1696023264489,False
+День,Сглаживание,"{""window"": 112, ""trend"": true}",67.5118603438881,False
+День,AutoReg из первой версии,{},,True
+День,AutoReg,{},64.92521901156717,True
+День,AutoReg,"{""window"": 84}",68.38938668003655,False
+День,AutoReg,"{""lags"": [1, 2, 7, 14], ""window"": 112}",67.5687170217344,False
+День,AutoReg,"{""lags"": [1, 7, 14], ""log"": true}",72.92774602745604,False
+День,ARIMA,"{""order"": [1, 0, 0], ""calendar"": true}",64.09938162067783,True
+День,ARIMA,"{""order"": [2, 0, 0], ""calendar"": true}",65.18158808293057,False
+День,ARIMA,"{""order"": [1, 1, 0], ""calendar"": true}",89.13437929984396,False
+День,Бустинг,"{""n_estimators"": 150, ""max_depth"": 2, ""min_samples_leaf"": 8}",68.35828381461761,False
+День,Бустинг,"{""n_estimators"": 300, ""max_depth"": 2, ""min_samples_leaf"": 10}",68.3390004157556,True
+День,Бустинг,"{""n_estimators"": 300, ""max_depth"": 3, ""min_samples_leaf"": 10, ""loss"": ""huber""}",78.35526611873331,False
+Неделя,Наивная,{},,True
+Неделя,Сглаживание,{},38.839702676785976,False
+Неделя,Сглаживание,"{""trend"": true}",35.66851157283899,True
+Неделя,AutoReg из первой версии,{},,True
+Неделя,AutoReg,{},42.62297379987938,False
+Неделя,AutoReg,"{""lags"": [1, 2]}",43.7287102409174,False
+Неделя,AutoReg,"{""window"": 16}",38.86826901976849,True
+Неделя,ARIMA,"{""order"": [1, 0, 0]}",43.758240696812685,False
+Неделя,ARIMA,"{""order"": [1, 1, 0]}",40.689593577089035,False
+Неделя,ARIMA,"{""order"": [0, 1, 1]}",38.79482485313883,True
+Неделя,Бустинг,"{""n_estimators"": 150, ""max_depth"": 1, ""min_samples_leaf"": 3}",48.29640630571316,False
+Неделя,Бустинг,"{""n_estimators"": 300, ""max_depth"": 2, ""min_samples_leaf"": 3}",44.932222654765155,True
+Месяц,Наивная,{},,True
+Месяц,Сглаживание,{},,True
+Месяц,AutoReg из первой версии,{},,True
+Месяц,AutoReg,"{""log"": true}",,True
+Месяц,ARIMA,"{""order"": [1, 0, 0]}",,True
+Месяц,Бустинг,"{""n_estimators"": 150, ""max_depth"": 1, ""min_samples_leaf"": 2}",,True

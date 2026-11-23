@@ -1,0 +1,11 @@
+.venv*/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+.cache/
+.DS_Store
+*.xlsx
+*.zip
+homework_1/data/raw/
+homework_1/reports/figures/
+homework_1/reports/*.html
